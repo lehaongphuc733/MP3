@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKyActivity"
+    android:background="@drawable/background1">
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:textColor="#ffff"
+        android:textSize="30sp"
+        android:fontFamily="@font/baloo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtDangKy"></TextView>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_email"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_bg"
+        android:id="@+id/edtDangKyEmail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDangKy"
+        android:hint="Nhập Email"
+        android:textColor="#ece9f1"
+        android:textColorHint="#b2b0b4"></EditText>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_rabbit"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ece9f1"
+        android:textColorHint="#b2b0b4"
+        android:hint="Nhập họ tên"
+        android:layout_below="@+id/edtDangKyEmail"
+        android:id="@+id/edtDangKyHoTen"></EditText>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_key"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu"
+        android:layout_below="@+id/edtDangKyHoTen"
+        android:textColor="#ece9f1"
+        android:textColorHint="#b2b0b4"
+        android:id="@+id/edtDangKyMK"
+        android:inputType="textPassword"
+        ></EditText>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_key"
+        android:paddingLeft="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_below="@id/edtDangKyMK"
+        android:textColor="#ece9f1"
+        android:textColorHint="#b2b0b4"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Xác nhận mật khẩu"
+        android:id="@+id/edtReMK"
+        android:inputType="textPassword"
+        ></EditText>
+
+    <Button
+        android:layout_marginLeft="185dp"
+        android:id="@+id/btnDangNhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtReMK"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:text="Đăng nhập"></Button>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_bg"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/btnDangNhap"
+        android:layout_below="@+id/edtReMK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:id="@+id/btnDangKy"></Button>
+
+</RelativeLayout>

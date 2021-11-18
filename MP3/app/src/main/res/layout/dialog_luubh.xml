@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog_luualbum">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="Lưu Album?"
+        android:fontFamily="@font/baloo"
+        android:id="@+id/txtLuuAlbum"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên bài hát"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtLuuAlbum"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtTenBaiHatLuu"/>
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên album mới"
+        android:id="@+id/edtNhaptenalbummoi"
+        android:layout_below="@+id/txtTenBaiHatLuu"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_add"
+        android:layout_toRightOf="@+id/edtNhaptenalbummoi"
+        android:layout_below="@+id/txtTenBaiHatLuu"
+        android:id="@+id/imgAddLuu"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn Album cần lưu?"
+        android:id="@+id/txtChonAlbumCanLuu"
+        android:layout_below="@id/edtNhaptenalbummoi"
+        android:layout_marginTop="4dp"/>
+
+    <ListView
+        android:layout_marginTop="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp"
+        android:layout_height="500dp"
+        android:id="@+id/ListLuuAlbum"
+        android:layout_below="@+id/txtChonAlbumCanLuu"/>
+
+
+    <ImageView
+        android:layout_marginTop="12dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgNextLuu"
+        android:src="@drawable/ic_next_right_new"
+        android:layout_below="@+id/ListLuuAlbum"
+        android:layout_marginLeft="500dp"/>
+
+
+    <ImageView
+        android:layout_marginTop="12dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_previous_new"
+        android:id="@+id/imgPreLuu"
+        android:layout_below="@id/ListLuuAlbum"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

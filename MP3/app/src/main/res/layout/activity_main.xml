@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#170f23">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_fingerprint_24"
+        android:id="@+id/imgLogo"
+        ></ImageView>
+
+    <TextView
+        android:fontFamily="@font/baloo"
+        android:layout_marginRight="7dp"
+        android:textSize="27sp"
+        android:id="@+id/txtLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Đăng nhập"
+        android:textColor="@color/white" />
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/imgMenu"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:background="#2f2739"-->
+<!--        android:src="@drawable/ic_baseline_menu_24"></ImageButton>-->
+
+    <TextView
+        android:id="@+id/txtBHNoiBat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgLogo"
+        android:fontFamily="@font/baloo"
+        android:text="Bài hát nổi bật"
+        android:textColor="#fefefe"
+        android:textSize="24sp"
+        android:textStyle="bold"></TextView>
+
+    <ListView
+        android:id="@+id/ListViewBHNoiBat"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@+id/txtBHNoiBat"></ListView>
+
+
+    <TextView
+        android:textSize="24sp"
+        android:textColor="#716161"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtXemTatCa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem tất cả"
+        android:layout_below="@+id/ListViewBHNoiBat"/>
+
+</RelativeLayout>

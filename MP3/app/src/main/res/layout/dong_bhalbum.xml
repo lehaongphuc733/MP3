@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgHinh1"
+        android:src="@null"
+        ></ImageView>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgHinh1"
+        android:text="Tên bài hát"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTenBaiHat1"
+        android:textSize="33sp"
+        android:textColor="#AF4321"
+        ></TextView>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/imgHinh1"
+        android:layout_below="@+id/txtTenBaiHat1"
+        android:text="Tên ca sĩ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTenCaSi1"
+        android:textSize="22sp"
+        android:textColor="#76727d"
+        ></TextView>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/imgHinh1"
+        android:layout_below="@+id/txtTenCaSi1"
+        android:text="Ngày lưu: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNgayLuu"
+        android:textSize="24sp"
+        android:textColor="#76727d"
+        ></TextView>
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/txtTenBaiHat1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_delete"
+        android:id="@+id/imgDeleteBH"/>
+
+
+</RelativeLayout>

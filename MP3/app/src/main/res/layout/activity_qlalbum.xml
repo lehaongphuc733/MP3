@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QLAlbumActivity"
+    android:background="@drawable/background_add_album">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Quản lý Album"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/baloo"
+        android:id="@+id/txtQLAlbum"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/txtQLAlbum"
+        android:src="@drawable/ic_add"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgAdd"/>
+
+    <ListView
+        android:id="@+id/ListAlbum"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@+id/imgAdd" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_next_right_new"
+        android:layout_below="@+id/ListAlbum"
+        android:layout_alignParentRight="true"
+        android:id="@+id/imgNext"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_previous_new"
+        android:layout_below="@+id/ListAlbum"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imgPrevious"/>
+
+
+
+</RelativeLayout>

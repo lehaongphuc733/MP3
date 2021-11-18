@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dialog_luualbum"
+    tools:context=".SuaThongTInActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật thông tin"
+        android:fontFamily="@font/baloo"
+        android:textSize="32sp"
+        android:textColor="#915411"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:id="@+id/txtSuaThongTin"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_email"
+        android:layout_marginTop="17dp"
+        android:textSize="24sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Email mới"
+        android:textColorHint="#915411"
+        android:textColor="#915411"
+        android:layout_below="@+id/txtSuaThongTin"
+        android:id="@+id/edtSuaEmail"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:drawableLeft="@drawable/ic_rabbit"
+        android:textSize="24sp"
+        android:background="@drawable/edit_text_bg"
+        android:id="@+id/edtNhaphoten"
+        android:layout_marginTop="17dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập họ tên"
+        android:textColorHint="#915411"
+        android:textColor="#915411"
+        android:layout_below="@+id/edtSuaEmail"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <Button
+        android:background="@drawable/button_bg_brawn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đổi mật khẩu"
+        android:layout_below="@+id/edtNhaphoten"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnDoiMK"/>
+
+    <Button
+        android:layout_below="@+id/edtNhaphoten"
+        android:text="Cập nhật"
+        android:id="@+id/btnCapNhat"
+        android:background="@drawable/button_bg_brawn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/btnDoiMK"
+        android:layout_marginLeft="20dp"/>
+
+
+
+</RelativeLayout>

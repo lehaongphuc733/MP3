@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22037037037037038" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/bg_equal.xml" value="0.2638888888888889" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/button_bg.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/button_bg_brawn.xml" value="0.26666666666666666" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/edit_text_bg.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_add.xml" value="0.26666666666666666" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_afterbaihat.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_baseline_fingerprint_24.xml" value="0.25462962962962965" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.22037037037037038" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_beforebaihat.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_delete.xml" value="0.2574074074074074" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_edit.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_email.xml" value="0.2638888888888889" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_key.xml" value="0.2638888888888889" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_launcher_background.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_nosave.xml" value="0.2759259259259259" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_pause.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_play.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_rabbit.xml" value="0.2759259259259259" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_save.xml" value="0.2759259259259259" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_tualen.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_tuave.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/ic_warning.xml" value="0.2759259259259259" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/drawable/vie_bg.xml" value="0.21574074074074073" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_ca_si.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_dang_ky.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_dang_nhap.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_doi_mat_khau.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_dsnhac.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_introductory.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_listen.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_qlalbum.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_qlbhalbum.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/activity_sua_thong_tin.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/dailog_edit.xml" value="0.2558876811594203" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/dailog_xoalbum.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/dialog_addalbum.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/dialog_luubh.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/dong_album.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/dong_bai_hat.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/dong_bhalbum.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/login_tab_fragment.xml" value="0.16983695652173914" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/register_tab_fragment.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/layout/success.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/menu/listmenu.xml" value="0.27447916666666666" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2638888888888889" />
+        <entry key="..\:/AndroidStudioProject/MP3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2638888888888889" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

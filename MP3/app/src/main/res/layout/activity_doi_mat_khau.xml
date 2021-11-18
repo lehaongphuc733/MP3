@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoiMatKhauActivity"
+    android:background="#170f23">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật mật khẩu"
+        android:fontFamily="@font/baloo"
+        android:textSize="30sp"
+        android:textColor="#ffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:id="@+id/txtCapNhatMK"/>
+
+
+    <EditText
+        android:drawableLeft="@drawable/ic_key"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="13dp"
+        android:inputType="textPassword"
+        android:id="@+id/edtNhapMKCu"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCapNhatMK"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="Mật khẩu cũ"
+        android:textColor="#ece9f1"
+        android:textColorHint="#b2b0b4"
+        android:textSize="20sp" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_key"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="13dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu mới"
+        android:textColorHint="#b2b0b4"
+        android:textColor="#ece9f1"
+        android:layout_below="@id/edtNhapMKCu"
+        android:id="@+id/edtNhapMKMoi"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_key"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="13dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Xác nhận mật khẩu"
+        android:textColorHint="#b2b0b4"
+        android:textColor="#ece9f1"
+        android:layout_below="@id/edtNhapMKMoi"
+        android:id="@+id/edtXacNhanMK"
+        />
+
+    <Button
+        android:layout_marginTop="13dp"
+        android:background="@drawable/button_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật"
+        android:id="@+id/btnCapNhat"
+        android:layout_below="@+id/edtXacNhanMK"
+        android:layout_centerHorizontal="true"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="Quản lý tài khoản"
+        android:id="@+id/itemQLTK"></item>
+
+    <item android:title="Quản lý PlayList"
+        android:id="@+id/itemQLPlayList"></item>
+
+    <item android:title="Danh sách bài hát đã thích"
+        android:id="@+id/itemDSDaThich"></item>
+
+    <item android:title="Danh sách ca sĩ đã thích"
+        android:id="@+id/itemDSCaSi"></item>
+
+    <item android:title="Tìm kiếm"
+        android:id="@+id/itemTimKiem"></item>
+
+    <item android:title="Đăng xuất"
+        android:id="@+id/itemDangXuat"></item>
+
+
+</menu>

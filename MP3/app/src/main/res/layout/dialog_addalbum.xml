@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Album"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/baloo"
+        android:layout_marginTop="3dp"
+        android:id="@+id/txtThemAlbum"/>
+
+    <EditText
+        android:paddingLeft="10dp"
+        android:textColor="@color/teal_200"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên ablum mới"
+        android:textSize="20sp"
+        android:id="@+id/edtNhapAlbumMoi"
+        android:layout_below="@+id/txtThemAlbum"
+        android:textColorHint="@color/teal_200"/>
+
+    <Button
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/edtNhapAlbumMoi"
+        android:background="@drawable/button_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm Album"
+        android:id="@+id/btnThem"/>
+
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/button_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đóng"
+        android:layout_below="@+id/edtNhapAlbumMoi"
+        android:layout_toRightOf="@+id/btnThem"
+        android:id="@+id/btnDong"/>
+
+
+</RelativeLayout>

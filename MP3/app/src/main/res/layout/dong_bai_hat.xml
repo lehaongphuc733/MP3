@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgHinh"
+        android:src="@null"
+        ></ImageView>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:text="Tên bài hát"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTenBaiHat"
+        android:textSize="33sp"
+        android:textColor="#FFFFFF"
+        ></TextView>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_below="@+id/txtTenBaiHat"
+        android:text="Tên ca sĩ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTenCaSi"
+        android:textSize="22sp"
+        android:textColor="#76727d"
+        ></TextView>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/imgHinh"
+        android:layout_below="@+id/txtTenCaSi"
+        android:text="Số lượt xem: "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSoLuotXem"
+        android:textSize="24sp"
+        android:textColor="#76727d"
+        ></TextView>
+
+</RelativeLayout>

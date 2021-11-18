@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListenActivity"
+    android:background="#170f23">
+
+    <TextView
+        android:textColor="#fcfcfc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tất cả"
+        android:id="@+id/txtAlbum"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true"></TextView>
+
+    <TextView
+        android:id="@+id/txtTenbaihat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Tên bài hát"
+        android:textColor="#fcfcfc"
+        android:textSize="24sp"></TextView>
+
+    <ImageView
+
+        android:id="@+id/imgCD"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:background="@null"
+        android:src="@drawable/imgcd"
+        ></ImageView>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/skMusic"
+        android:text="00:00"
+        android:textColor="#fcfcfc"
+        android:id="@+id/txtStart"
+        android:layout_alignParentLeft="true"
+        ></TextView>
+
+
+    <TextView
+        android:id="@+id/txtEnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/skMusic"
+        android:layout_alignParentRight="true"
+        android:text="00:00"
+        android:textColor="#fcfcfc"></TextView>
+
+    <SeekBar
+        android:id="@+id/skMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgCD"
+        android:layout_marginTop="20dp"></SeekBar>
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play"
+        android:id="@+id/imgPlay"
+        android:background="@null"
+        android:layout_below="@+id/skMusic"
+        android:layout_centerHorizontal="true"></ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_beforebaihat"
+        android:background="@null"
+        android:id="@+id/imgBefore"
+        android:layout_below="@+id/skMusic"
+        android:layout_toLeftOf="@+id/imgPlay"
+        android:layout_marginRight="100dp"></ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_tuave"
+        android:id="@+id/imgTuaVe"
+        android:background="@null"
+        android:layout_below="@+id/skMusic"
+        android:layout_toLeftOf="@+id/imgPlay"
+        android:layout_marginRight="50dp"></ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_afterbaihat"
+        android:id="@+id/imgAfter"
+        android:background="@null"
+        android:layout_below="@+id/skMusic"
+        android:layout_toRightOf="@+id/imgPlay"
+        android:layout_marginLeft="100dp"></ImageButton>
+
+    <ImageButton
+        android:layout_marginTop="15dp"
+        android:id="@+id/imgTuaLen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_tualen"
+        android:background="@null"
+        android:layout_below="@+id/skMusic"
+        android:layout_toRightOf="@+id/imgPlay"
+        android:layout_marginLeft="50dp"></ImageButton>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/unlike1"
+        android:id="@+id/imgLike"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_nosave"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:id="@+id/imgSave"/>
+</RelativeLayout>
